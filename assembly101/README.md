@@ -18,4 +18,8 @@ display /i $pc
 # 切换显示方式
 set disassembly-flavor intel
 set disassembly-flavor att
+
+# 查看寄存器
+info register
+i r
 ```
