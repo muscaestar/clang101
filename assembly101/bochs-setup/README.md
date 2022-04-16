@@ -26,7 +26,8 @@ log: $BOCHS_IMGS/bochs.log
 
 mouse: enabled=0
 
-keyboard: keymap=/usr/share/bochs/keymaps/x11-pc-be.map
+#keyboard: keymap=/usr/share/bochs/keymaps/x11-pc-be.map
+display_library: x, options="gui_debug"
 
 ```
 
@@ -40,3 +41,6 @@ bochs -q -f ~/.bochsrc -rc debug.cfg
 
 ## 5. 启动
 `$ ./basm.sh demo`
+
+- c continue 跑到下个断点
+- n next 单步调试
