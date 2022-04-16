@@ -1,3 +1,0 @@
-/home/musca/projects/c-code/clang101/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/musca/projects/c-code/clang101/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/musca/projects/c-code/clang101/cmake-build-debug/CMakeFiles/clang101.dir
