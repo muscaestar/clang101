@@ -39,6 +39,13 @@ sudo dd if=$1.bin of=$BOCHS_IMGS/debug.img bs=512 count=1 conv=notrunc
 bochs -q -f ~/.bochsrc -rc $BOCHS_IMGS/debug.cfg
 ```
 
+debug.cfg 最后一定要换行
+```
+b 0x7c00
+c
+
+```
+
 ## 5. 启动
 `$ ./basm.sh demo`
 
