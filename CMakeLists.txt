@@ -4,4 +4,5 @@ project(clang101)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(clang101
-        assembly101/demo.cpp)
+#        assembly101/demo.cpp
+        assembly101/practice/caseswitch.c)
