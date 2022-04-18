@@ -17,3 +17,16 @@
 - rip 程序计数器
 - rdi 数据拷贝, 目标
 - rsi 数据拷贝，源
+
+### 内存
+#### 全局变量
+- 数据宽度：byte、word(2字节)、dword(4字节)、qword(8字节)
+- 基本操作: mov
+
+#### 局部变量
+- 基本操作： mov, push, pop
+
+#### 栈
+- 特殊寄存器： esp栈顶、ebp栈底
+- push本质： sub esp, 4; mov dword ptr [esp], eax
+- pop本质： mov eax, [esp]; add esp, 4
