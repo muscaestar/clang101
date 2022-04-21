@@ -30,3 +30,13 @@
 - 特殊寄存器： esp栈顶、ebp栈底
 - push本质： sub esp, 4; mov dword ptr [esp], eax
 - pop本质： mov eax, [esp]; add esp, 4
+
+#### 函数调用/返回 call ret
+- call:
+  1. 返回地址压栈（把call的下一行的内存地址压入栈）
+  2. 修改寄存器eip, 程序计数器（就是call的参数，一个内存地址）
+- ret: 涉及：内平栈、外平栈
+  1. 返回地址出栈
+  2. 修改eip寄存器
+
+## C
