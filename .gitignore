@@ -56,3 +56,7 @@ dkms.conf
 /cmake-build-debug/
 *.bin
 *.lst
+
+/HelloWorld.dump
+/HelloWorld.s
+/HelloWorld
